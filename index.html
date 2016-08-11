@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>fabric-canvas</title>
+    <link rel="stylesheet" type="text/css" media="screen,print" href="style.css"/>
+</head>
+<body>
+
+fontSize <input type="number" id="fontSize" value="20">
+
+    <textarea name="" id="addtext" rows="3">Hello Word</textarea>
+
+    <button id="add">add</button>
+    <button id="del" disabled>del</button>
+    <button onclick="window.print()">print</button>
+    <button id="save">save</button>
+
+    <hr>
+    <div id="wrap">
+        <canvas id="c" ></canvas>
+    </div>
+
+<!--<img id="i" src="cc.png" alt="">-->
+
+    <script src="plugins/jquery-3.1.0.min.js"></script>
+    <script src="plugins/fabric.min.js" type="text/javascript"></script>
+    <script src="plugins/jspdf.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
